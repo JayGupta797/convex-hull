@@ -73,7 +73,7 @@ If verbose is set to `True` then each intermediate state of the hull is shown.
 
 2 Dimensional Case         |  3 Dimensional Case
 :-------------------------:|:-------------------------:
-                           |
+![state-2d](https://github.com/user-attachments/assets/48df7340-379c-4728-a5b8-1bf487c791a5) | ![state-3d](https://github.com/user-attachments/assets/e65abe49-cfff-44db-9d06-fa8ec596aae8)
 
 # Dependencies
 This project uses `NumPy` for numerical computations and `matplotlib` for visualization. 
@@ -89,10 +89,10 @@ This project uses `NumPy` for numerical computations and `matplotlib` for visual
 
 | Dim | Number of Points | qhull Average Time | ConvexHull Average Time |
 |-----|------------------|--------------------|-------------------------|
-| 3   | 10               | 0.002209           | 0.000334                |
-| 3   | 100              | 0.020895           | 0.000430                |
-| 3   | 1000             | 0.071058           | 0.000902                |
-| 3   | 10000            | 0.333961           | 0.003224                |
+| 3   | 10               | 0.002348           | 0.000334                |
+| 3   | 100              | 0.014820           | 0.000430                |
+| 3   | 1000             | 0.055613           | 0.000902                |
+| 3   | 10000            | 0.291249           | 0.003224                |
 
 # Notes
 The 2D case accepts inputs in all dimensions but the output is *not* guranteed to be the Convex Hull. 
